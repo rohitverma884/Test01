@@ -16,6 +16,7 @@ public class Revers {
 
         char[] ch=input.toCharArray();
         int j=ch.length;
+
         for(int i=j; i>0;i--) {
             reversed= reversed + ch[i-1];
         }
