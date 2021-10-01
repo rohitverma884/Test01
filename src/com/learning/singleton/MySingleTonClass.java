@@ -4,7 +4,19 @@ public class MySingleTonClass {
 
 
     public static void main(String abc[]) {
-        Abc obj1 = new Abc();
+
+        SingletonClass s = SingletonClass.getInstance();
+        s.number =7;
+
+        SingletonClass s1 = SingletonClass.getInstance();
+        s1.number =9;
+
+
+
+
+
+
+       /* Abc obj1 = new Abc();
         obj1.number = 4;
         Abc.point =90;
 
@@ -16,7 +28,7 @@ public class MySingleTonClass {
         obj1 = new Abc();
         obj1.number = 8;
 
-        Abc obj2 = new Abc();
+        Abc obj2 = new Abc();*/
     }
 }
 
