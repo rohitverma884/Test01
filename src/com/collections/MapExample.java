@@ -37,9 +37,5 @@ public class MapExample {
         map.put(119, "xyz1");
 
        System.out.println(map.get(117));
-
-
-
-
     }
 }
